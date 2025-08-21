@@ -269,6 +269,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Rb: {fileID: 327331322}
+  forwardForce: 1000
+  SidewaysForce: 600
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,7 +555,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439291519}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: dc08d60ad9bb1aa4985555178cda47db, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
